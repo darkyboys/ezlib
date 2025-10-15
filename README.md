@@ -67,7 +67,6 @@ ezlib/
 ├── LICENSE           # MIT License
 └── README.md         # This file
 ```
-```
 ---
 
 ## Building
