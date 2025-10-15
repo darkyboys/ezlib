@@ -1,0 +1,9 @@
+# Build the library
+# EZTypes
+@show_logs true
+
+global:
+    bin = "libo"
+    compiler_parguments = "-c"
+
+eztypes/ezstring.cc: out = "ezstring.o"

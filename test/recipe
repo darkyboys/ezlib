@@ -1,0 +1,9 @@
+# Build the test
+@show_logs true
+@system cook -d makelib
+
+test/test.cc: 
+    out = "test"
+    combine = "libo/ezstring.o"
+
+@callback bin/test
